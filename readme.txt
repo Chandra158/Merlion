@@ -14,4 +14,12 @@ ToDo ;
 5. Include in credits page of the app
 
 
+Useful Heroku cmds: 
+0. heroku create (only during setup)
+git push heroku master
+heroku ps:scale web=1
+heroku ps:scale web=0 (dynos to zero : no dynos available to serve request)
+heroku open
+
+
 
